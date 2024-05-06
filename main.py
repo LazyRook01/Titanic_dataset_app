@@ -3,9 +3,9 @@ import pandas as pd
 import pycaret
 from pycaret.classification import load_model
 
-st.write("Streamlit version:", st.__version__)
-st.write("Pandas version:", pd.__version__)
-st.write("PyCaret version:", pycaret.__version__)
+#st.write("Streamlit version:", st.__version__)
+#st.write("Pandas version:", pd.__version__)
+#st.write("PyCaret version:", pycaret.__version__)
 
 # Load the trained model
 saved_final_model = load_model('classification_titanic')
